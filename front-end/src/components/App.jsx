@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from './Header/index'
+import NovoUsuario from './NovoUsuario/index'
 
 class App extends React.Component {
     render() {
         return (
-            <h1>Component App!</h1>
+            <div>
+                <Header />
+                <NovoUsuario />
+            </div>
         );
     }
 }
